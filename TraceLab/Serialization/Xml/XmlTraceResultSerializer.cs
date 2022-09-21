@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System.Xml;
+using System.Xml.Serialization;
 using Tracer.Core;
 using Tracer.Serialization.Abstraction;
 using Xml.DataTransferObjects;
@@ -9,7 +10,7 @@ namespace Tracer.Xml
     {
         public void Serialize(TraceResult traceResult, Stream to)
         {
-            var xml = new XmlSerializer(typeof(TraceResultDTO), new XmlWriterSettings() { Indent = true });
+            var xml = new XmlSerializer(typeof(TraceResultDTO));
             var dto = new TraceResultDTO(traceResult);
             xml.Serialize(to, dto);
         }

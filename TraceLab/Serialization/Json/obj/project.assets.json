@@ -1,12 +1,22 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v6.0": {
+    "net6.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Serialization/1.0.0": {
         "type": "project",
-        "framework": ".NETFramework,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj": "1.0.0"
+          "Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Serialization.dll": {}
@@ -18,6 +28,11 @@
     }
   },
   "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../../Tracer/Core/Core.csproj",
+      "msbuildProject": "../../Tracer/Core/Core.csproj"
+    },
     "Serialization/1.0.0": {
       "type": "project",
       "path": "../../Tracer/Serialization/Serialization.csproj",
@@ -25,7 +40,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v6.0": [
+    "net6.0": [
       "Serialization >= 1.0.0"
     ]
   },
@@ -35,46 +50,60 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\Json.csproj",
+      "projectUniqueName": "D:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\Json.csproj",
       "projectName": "Json",
-      "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\Json.csproj",
+      "projectPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\Json.csproj",
       "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
-      "outputPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\obj\\",
+      "outputPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Json\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net60"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net60": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj": {
-              "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj"
+            "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj": {
+              "projectPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
-      "net60": {}
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Не удалось найти сведения о проекте для \"d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj\". В Visual Studio, возможно, причина в том, что проект выгружен или не является частью текущего решения. В ином случае файл проекта может быть недопустим, или в нем могут отсутствовать целевые объекты, необходимые для восстановления.",
-      "libraryId": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj",
-      "targetGraphs": [
-        ".NETFramework,Version=v6.0"
-      ]
-    }
-  ]
+  }
 }

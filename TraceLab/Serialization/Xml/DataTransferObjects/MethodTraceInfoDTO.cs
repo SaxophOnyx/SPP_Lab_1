@@ -1,7 +1,9 @@
-﻿using Tracer.Core;
+﻿using System.Xml.Serialization;
+using Tracer.Core;
 
 namespace Xml.DataTransferObjects
 {
+    [XmlType("MethodTraceInfo")]
     public class MethodTraceInfoDTO
     {
         public string MethodName { get; set; }

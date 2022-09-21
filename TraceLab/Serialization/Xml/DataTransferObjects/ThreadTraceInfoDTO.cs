@@ -1,7 +1,9 @@
-﻿using Tracer.Core;
+﻿using System.Xml.Serialization;
+using Tracer.Core;
 
 namespace Xml.DataTransferObjects
 {
+    [XmlType("ThreadTraceInfo")]
     public class ThreadTraceInfoDTO
     {
         public int ThreadID { get; set; }

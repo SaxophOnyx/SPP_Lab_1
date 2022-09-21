@@ -36,7 +36,6 @@ internal class Program
             Console.WriteLine(Encoding.UTF8.GetString(s.ToArray()));
         }
 
-
         Console.WriteLine("Press any key to continue...");
         Console.ReadKey();
     }
