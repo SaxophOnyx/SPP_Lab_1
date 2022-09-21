@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1RLvOIojl4/3tQPuJW8kaYb9GvCucTfTVf8j6hzjOfcmaRgI2T21JUpBWoc8XqaSmCiWbkwSPtegxm/sDijKVA==",
+  "success": true,
+  "projectFilePath": "D:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Yaml\\Yaml.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\German\\.nuget\\packages\\yamldotnet\\12.0.1\\yamldotnet.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

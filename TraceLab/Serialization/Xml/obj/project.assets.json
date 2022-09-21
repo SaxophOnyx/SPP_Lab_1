@@ -1,0 +1,80 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {
+      "Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v6.0",
+        "dependencies": {
+          "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serialization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Serialization/1.0.0": {
+      "type": "project",
+      "path": "../../Tracer/Serialization/Serialization.csproj",
+      "msbuildProject": "../../Tracer/Serialization/Serialization.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": [
+      "Serialization >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\German\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Xml\\Xml.csproj",
+      "projectName": "Xml",
+      "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Xml\\Xml.csproj",
+      "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
+      "outputPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Xml\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net60"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "projectReferences": {
+            "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj": {
+              "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net60": {}
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Не удалось найти сведения о проекте для \"d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj\". В Visual Studio, возможно, причина в том, что проект выгружен или не является частью текущего решения. В ином случае файл проекта может быть недопустим, или в нем могут отсутствовать целевые объекты, необходимые для восстановления.",
+      "libraryId": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    }
+  ]
+}

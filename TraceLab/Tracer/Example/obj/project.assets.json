@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "YamlDotNet/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serialization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YamlDotNet/12.0.1": {
+      "sha512": "MltVIOIX817Uz/TFkPSaZImdzB86X/k8QY0kFBQx6KI6GsKOk3rIlrptOhb28O0RD2WnibMoYLnCQnqfYduvaw==",
+      "type": "package",
+      "path": "yamldotnet/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.12.0.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Serialization/1.0.0": {
+      "type": "project",
+      "path": "../Serialization/Serialization.csproj",
+      "msbuildProject": "../Serialization/Serialization.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Core >= 1.0.0",
+      "Serialization >= 1.0.0",
+      "YamlDotNet >= 12.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\German\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Example\\Example.csproj",
+      "projectName": "Example",
+      "projectPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Example\\Example.csproj",
+      "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
+      "outputPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Example\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj": {
+              "projectPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj"
+            },
+            "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj": {
+              "projectPath": "D:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

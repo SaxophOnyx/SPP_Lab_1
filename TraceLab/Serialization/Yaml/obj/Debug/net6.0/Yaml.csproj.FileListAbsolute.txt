@@ -1,0 +1,17 @@
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Yaml.deps.json
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Yaml.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Yaml.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.csproj.AssemblyReference.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.AssemblyInfoInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.AssemblyInfo.cs
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.csproj.CoreCompileInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\refint\Yaml.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\ref\Yaml.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Core.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Serialization.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Serialization.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\bin\Debug\net6.0\Core.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Yaml\obj\Debug\net6.0\Yaml.csproj.CopyComplete

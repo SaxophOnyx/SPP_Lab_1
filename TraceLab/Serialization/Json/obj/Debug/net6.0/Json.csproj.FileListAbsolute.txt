@@ -1,0 +1,17 @@
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Json.deps.json
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Json.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Json.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Core.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Serialization.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Serialization.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\bin\Debug\net6.0\Core.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.csproj.AssemblyReference.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.AssemblyInfoInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.AssemblyInfo.cs
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.csproj.CoreCompileInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.csproj.CopyComplete
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\refint\Json.dll
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\Json.pdb
+D:\Мои файлы\CSharp\TraceLab\Serialization\Json\obj\Debug\net6.0\ref\Json.dll

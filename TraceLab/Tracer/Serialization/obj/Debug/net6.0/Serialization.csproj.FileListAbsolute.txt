@@ -1,0 +1,15 @@
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\bin\Debug\net6.0\Serialization.deps.json
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\bin\Debug\net6.0\Serialization.dll
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\bin\Debug\net6.0\Serialization.pdb
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\bin\Debug\net6.0\Core.dll
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\bin\Debug\net6.0\Core.pdb
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.csproj.AssemblyReference.cache
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.AssemblyInfoInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.AssemblyInfo.cs
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.csproj.CoreCompileInputs.cache
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.csproj.CopyComplete
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.dll
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\refint\Serialization.dll
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\Serialization.pdb
+D:\Мои файлы\CSharp\TraceLab\Tracer\Serialization\obj\Debug\net6.0\ref\Serialization.dll

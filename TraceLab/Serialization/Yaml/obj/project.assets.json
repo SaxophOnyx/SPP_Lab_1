@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {
+      "YamlDotNet/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/YamlDotNet.dll": {}
+        }
+      },
+      "Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v6.0",
+        "dependencies": {
+          "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Serialization.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YamlDotNet/12.0.1": {
+      "sha512": "MltVIOIX817Uz/TFkPSaZImdzB86X/k8QY0kFBQx6KI6GsKOk3rIlrptOhb28O0RD2WnibMoYLnCQnqfYduvaw==",
+      "type": "package",
+      "path": "yamldotnet/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.12.0.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    },
+    "Serialization/1.0.0": {
+      "type": "project",
+      "path": "../../Tracer/Serialization/Serialization.csproj",
+      "msbuildProject": "../../Tracer/Serialization/Serialization.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": [
+      "Serialization >= 1.0.0",
+      "YamlDotNet >= 12.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\German\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Yaml\\Yaml.csproj",
+      "projectName": "Yaml",
+      "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Yaml\\Yaml.csproj",
+      "packagesPath": "C:\\Users\\German\\.nuget\\packages\\",
+      "outputPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Serialization\\Yaml\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\German\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net60"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "projectReferences": {
+            "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj": {
+              "projectPath": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Serialization\\Serialization.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net60": {
+        "dependencies": {
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Не удалось найти сведения о проекте для \"d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj\". В Visual Studio, возможно, причина в том, что проект выгружен или не является частью текущего решения. В ином случае файл проекта может быть недопустим, или в нем могут отсутствовать целевые объекты, необходимые для восстановления.",
+      "libraryId": "d:\\Мои файлы\\CSharp\\TraceLab\\Tracer\\Core\\Core.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    }
+  ]
+}
